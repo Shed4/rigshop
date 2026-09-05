@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Basic Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+   <!-- Filled Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+   <!-- Brand Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./src/style.css">
+    <title>riglineshop</title>
+</head>
+<body>
+    
+<div class="p-6 bg-gray-100 min-h-screen">
+
+<h1 class="text-3xl font-bold">
+Rlgshop Admin</h1>
+
+<div class="bg-white p-5 rounded-xl mt-5">
+
+<h2 class="font-bold text-xl">Add Product</h2>
+
+<input id="name"class="border p-3 w-full mt-3"placeholder="Product name">
+
+<input id="price" class="border p-3 w-full mt-3" placeholder="Price">
+
+<input id="image" class="border p-3 w-full mt-3" placeholder="Image URL">
+
+<textarea id="description" class="border p-3 w-full mt-3" placeholder="Description"></textarea>
+
+<button id="upload" class="bg-black text-white p-3 rounded mt-3 hover:translate-y-2"> Upload Product</button></div>
+
+<!-- Products -->
+
+<div class="bg-white p-5 rounded-xl mt-5">
+<h2 class="text-xl font-bold">Products</h2>
+<div id="products"></div>
+
+</div>
+
+
+
+
+<!-- Users -->
+
+<div class="bg-white p-5 rounded-xl mt-5">
+
+<h2 class="text-xl font-bold">Users</h2>
+<div id="users"></div>
+
+</div>
+
+</div>
+</body>
+</html>

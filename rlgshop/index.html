@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+   <!-- Filled Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+   <!-- Brand Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link href="/src/style.css" rel="stylesheet">
+    <title>rlgshop</title>
+    <style>
+      .hero-container{
+        background-image: url(./public/bg10.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+        height: 100vh;
+      }
+     /*
+      .about-container{
+        background-image: url(./public/cloth10.jpg);
+        background-size: cover;
+        background-position: center;
+        
+        
+      } */
+    </style>
+  </head>
+  <body>
+     <header class=" flex flex-col sm:flex-row sm:justify-between pr-40 pl-5 py-4 mt-4">
+      <div><img src="./public/logo Ridgline.png" width="40"></div>
+      <ul class="flex justify-evenly items-center gap-12">
+        <li class="font-semibold hover:border-b-2"><a href="#shop">Shop</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="contact" translate="yes">Contact</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="about" translate="yes">About</a></li>
+        <button class=" text-black  px-4 py-2 text-center font-medium hover:bg-black hover:text-white rounded-[5px] "> <a href="register.html" target="_blank">Signup</a></button>
+        <button class=" text-black px-4 py-2 text-center font-medium  hover:bg-black hover:text-white rounded-[5px] "><a href="login.html" target="_blank">login</a></button>
+        <div class="relative" id="cart-icon"> 
+        <i class="bx bx-cart text-4xl p-0 hover:translate-x-1"></i> 
+          <div class=" absolute top-0.5 -right-0.5 h-2 w-2 rounded-full bg-red-900 hidden" id="notification"></div>
+       </div>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <div class="hero-container mt-2 rounded-2xl">
+      
+       <div class=" w-60 h-50 py-20"><img src="./public/bg11.jpg" class="rounded-r-full"></div> 
+       <div class=" flex justify-center items-center align-middle flex-col gap-8">
+            <h1 class="font-bold text-4xl text-white">Introducing New Collection</h1>
+            <button class=" px-12 py-2 border-2 border-white font-bold text-white rounded-[8px] hover:animate-bounce"><a href="#shop"> Shop Now</a></button>
+            </div>
+       </div>
+            
+        </div>
+      </section>
+      <section class=" sm:flex-row sm:justify-between mt-6" id="shop">
+    
+       <div class=" flex flex-wrap  justify-center  py-8 mt-4 gap-15 rounded-2xl bg-black/5 ">
+
+        <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+          
+          <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing Fendi </h2>
+          <span class="font-semibold text-red-700 " id="price">$100</span>
+         </div>
+
+          <div>
+         <img src="./public/fendi 2.jpg" width="300" class="mt-3 w-60 h-60 mainimage">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is a fendi product top,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+          
+        </div>
+
+
+        <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+           <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing </h2>
+          <span class="font-semibold text-red-700 " id="price">$200</span>
+         </div>
+
+          <div>
+         <img src="./public/cloth8.jpg" width="300" class="mt-3 w-60 h-60 mainimage">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is  product top,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+
+        </div>
+
+        <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+           <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing Prada </h2>
+          <span class="font-semibold text-red-700 " id="price">$130</span>
+         </div>
+
+          <div>
+         <img src="./public/cloth 1.jpg" width="300" class="mt-3 w-60 h-60 mainimage">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is a Prada product top,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+
+        </div>
+      
+       <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+           <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing Fendi </h2>
+          <span class="font-semibold text-red-700 " id="price">$300</span>
+         </div>
+
+          <div>
+         <img src="./public/fendi 3.jpg" width="300" class="mt-3 w-60 h-60 mainimage">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is a fendi product top,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+
+        </div>
+
+
+        <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+           <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing </h2>
+          <span class="font-semibold text-red-700 " id="price">$100</span>
+         </div>
+
+          <div>
+         <img src="./public/cloth10.jpg" width="300" class="mt-3 w-60 h-60 mainimage">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is product jacket comes in variety,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+
+        </div>
+
+
+      <div class="w-90 flex flex-col items-center p-6 rounded-2xl hover:translate-x-1 bg-black/10">
+           <div class="flex items-center gap-2 ">
+          <h2 class="font-bold " id="productname">The perfect luxury clothing Fendi </h2>
+          <span class="font-semibold text-red-700 " id="price">$170</span>
+         </div>
+
+          <div>
+         <img src="./public/cloth9.jpg" width="300" class=" mainimage mt-3 w-60 h-60">
+         </div>
+
+          <p class="font-medium mt-2 py-2">This is a fendi product top,very available and cost effective.</p>
+
+           <div class="flex">
+           <button class=" px-12 py-2 mt-3 bg-black text-white font-bold rounded-2xl hover:bg-blue-800  hover:translate-y-1 add-cart">Add to chart</button>
+           </div>
+
+        </div>
+      
+
+       </div>
+
+        <!--
+        <div><img src="./public/fendi 2.jpg" width="300" class=" w-130 h-90" id="mainimage">
+        <div class="flex gap-10  py-4 mt-4"  >
+          <i class="bx bx-arrow-left-circle py-5 px-0"></i> 
+          <div class="w-20 h-15 text-center  font-bold hover:border-2 "><img src="./public/fendi 2.jpg" class="product-image w-full h-full object-cover" ></div>
+          <div class="w-20 h-15  text-center  font-bold  hover:border-2 "><img src="./public/fendi 3.jpg" class="product-image w-full h-full object-cover"></div>
+          <div class="w-20 h-15  text-center  font-bold hover:border-2 "><img src="./public/cloth8.jpg" class="product-image w-full h-full object-cover"></div>
+          <div class="w-20 h-15 text-center  font-bold hover:border-2"><img src="./public/cloth 2.jpg" class="product-image w-full h-full object-cover"  ></div>
+          <i class="bx bx-arrow-right-circle py-5" ></i>
+        </div>
+        </div>
+        <div class="w-130">
+          <div class="flex items-center px-5">
+          <h2 class="font-bold px-4 py-4" id="productname">The perfect luxury clothing Fendi </h2>
+          <span class="font-semibold text-red-700" id="price">$100</span>
+          </div>
+          <p class="font-medium px-8 py-6 ">This is a fendi product top, the number cloth manufacturing company in the US and many other products in the company you could use. Very available and cost effective.</p>
+          
+
+          <div class="flex gap-10 px-8 py-4 mt-2">
+            <div>
+          <span class="font-bold py-1 px-1">Black</span>
+          <div class="w-15 h-10 bg-black rounded-[5px] hover:border-2 border-white"></div>
+          </div>
+           <div>
+          <span class="font-bold py-1 px-1">Red</span>
+          <div class="w-15 h-10 bg-red-700 rounded-[5px] hover:border-2 border-white "></div>
+          </div>
+          <div >
+            <span class=" font-bold py-1 px-1">Blue</span>
+          <div class="w-15 h-10 bg-blue-700 rounded-[5px] hover:border-2 border-white"></div>
+          </div>
+          <div>
+            <span class="font-bold py-1 px-1">Green</span>
+          <div class="w-15 h-10 bg-green-700 rounded-[5px] hover:border-2 border-white"></div>
+          </div>
+        </div>  
+        <div class="flex gap-10 px-8 py-4 mt-3"  >
+          <div class="w-15 h-10 bg-blue-200 rounded-[5px] text-center py-2 font-bold  hover:border-2">M</div>
+          <div class="w-15 h-10 bg-blue-200 rounded-[5px] text-center py-2 font-bold  hover:border-2">S</div>
+          <div class="w-15 h-10 bg-blue-200 rounded-[5px] text-center py-2 font-bold hover:border-2 ">X</div>
+          <div class="w-15 h-10 bg-blue-200 rounded-[5px] text-center py-2 font-bold hover:border-2">XL</div>
+        </div>
+        <div class="flex px-22 mt-6">
+         <button class=" px-20 py-4 bg-blue-800 text-white font-bold rounded-2xl  hover:animate-bounce" id="add-cart">Add to chart</button>
+         </div>
+        </div>
+       </div> 
+
+
+       <div id="cart-items"></div> -->
+       
+       
+      </section>
+      <!--
+     <section class="mt-8" id="about">
+       <div class=" about-container flex flex-col gap-10 py-8 px-43">
+        
+        <div class=" w-250 p-4 font-semiboldw-85 rounded-[14px] border bg-white/70 shadow-[0px_3px_3pX] ">
+        <h1 class=" font-bold flex justify-center text-2xl">About RiglineShop</h1>
+        <p class="leading-9 font-semibold">We to RiglineShop, a luxury fasion destination dedicated to bringing you premium clothing that combines elegance, confidence,and modern style. We specialize in carefully selected luxury wear designed for individuals who appreciate quality, sophistication, and timeless fashion.</p>
+
+        <p class="leading-9 font-semibold"> At RiglineShop, we believe that clothing is more than just what you wear, it is a reflection of your personality, lifestye, and confidence. Our Collection features stylish and high-quality pieces created to help you stand out, whether you are dressing for an occasion, a professional setting, or everyday luxury.</p>
+       </div>
+
+       <div class=" w-250 p-4 font-semiboldw-85 rounded-[14px] border bg-white/70 shadow-[0px_3px_3pX] "> 
+        <h2 class="font-bold flex justify-center text-2xl "> Our Mission</h2>
+        <p class="leading-9 font-semibold"> Our mission is to make luxury fashion more accessible by providing customers with exceptional designs, quality meterials, and seamless shopping experience. Every item in our store is chosen with attention to details, ensuring that our customers receive clothing that delivers both comfort and style.</p>
+       </div>
+       </div>
+     </section>
+    
+     <section id="contact" class="bg-black/90 h-80 text-white mt-12 rounded-2xl ">
+       
+       <div class=" w-40 h-8 "><img src="./public/bg11.jpg" class="rounded-r-full"></div>
+        <h1 class="font-bold flex justify-center text-2xl">Contact</h1>
+
+        <div class="flex justify-center  mt-16 gap-20"> 
+          <div class="">
+            <h2 class="font-bold text-2xl"> Can't find What you are looking for?</h2>
+          </div>
+          <div class="leading-8">
+          <span class="font-bold px-6">The Rigline support Team are ready to help.</span>
+          <p class="font-medium px-6 w-160">response time for support ticket will vary depending on order,complaint or any other issues. </p>
+           <div class="flex  mt-4 px-6 font-semibold">
+          <a href="#" class="px-14 py-2 hover:bg-blue-100 rounded-[10px] hover:text-black ">Connect Sales Rep</a> 
+          <a href="#" class="px-8 py-2 hover:bg-blue-100 rounded-[10px] hover:text-black"> Open Ticket</a>
+         </div>
+          
+        </div>
+
+       </div>
+    
+       
+      </section>
+    -->
+      <section>
+        <div class="bg-black/12 py-4 rounded-2xl">
+          <h1 class="font-bold text-2xl flex justify-center">why Shop With Us</h1>
+          <p class="font-medium flex justify-center mt-2"> we make your shopping experience simple, safe and enjoyable.</p>
+
+          <div class=" flex flex-wrap justify-center gap-15 mt-5">
+            <div class="w-60 p-4 hover:translate-x-1  ">
+              <div class=" flex justify-center text-3xl  p-1 "><i class="bx bx-truck w-12 h-12 p-2 rounded-full bg-blue-900/30 text-blue-900" ></i> </div>
+              <h2 class="font-bold flex justify-center ">Fast Delivery</h2>
+              <p class=" flex justify-center text-center font-serif">Get your orders delivered quickly and safely.</p>
+            
+            </div>
+
+             <div class="w-60 p-4 hover:translate-x-1 ">
+              <div class=" flex justify-center text-3xl  p-1 "> <i class="bx bx-check-shield w-12 h-12 p-2 rounded-full bg-green-400/30 text-green-800 "> </i> </div>
+              <h2 class="font-bold flex justify-center ">Secured Payments</h2>
+              <p class=" flex justify-center text-center font-serif">Shop with confidence using our Secured payment <option value=""></option></p>
+             </div>
+
+              <div class="w-60 p-4 hover:translate-x-1 ">
+              <div class=" flex justify-center text-3xl  p-1 "><i class="bx bx-headphone-mic w-12 h-12 p-2 rounded-full bg-violet-500/30 text-violet-900 "> </i> </div>
+              <h2 class="font-bold flex justify-center ">24/7 Support</h2>
+              <p class=" flex justify-center text-center font-serif">Our friendly team is always here to help.</p>
+            </div>
+            
+            <div class="w-60 p-4 hover:translate-x-1 ">
+              <div class=" flex justify-center text-3xl  p-1 "><i class="bx bx-refresh-cw w-12 h-12 p-2 rounded-full bg-orange-500/30 text-orange-900  "> </i> </div>
+              <h2 class="font-bold flex justify-center ">Easy Returns</h2>
+              <p class=" flex justify-center text-center font-serif">Not satisfied?Return within 7days, hassle-free.</p>
+            </div>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="flex justify-between  p-4 bg-black/90 text-white rounded">
+      <div class=""><img src="./public/logo Ridgline.png" width="40">
+      <h2 class="font-bold ">RiglineShop</h2>
+      <p class="font-medium">N0,20 checktown street Awka,Anambra State</p>
+      <span class="font-medium hover:border-b-2"><a href="#">Riglineshop@hotmail.com</a></span>
+      <div class="flex mt-2 gap-4 text-2xl">
+      <i class="bxl bx-facebook-circle hover:animate-bounce" ></i>
+      <i class="bxl bx-twitter-x hover:animate-bounce" ></i>
+      <i class="bxl bx-gmail hover:animate-bounce"></i>
+      <i class="bxl bx-whatsapp hover:animate-bounce" ></i>
+      <i class="bxl bx-instagram hover:animate-bounce" ></i>
+      </div>
+      </div>
+      <div>
+       <ul class=" items-center ">
+        <h2 class="font-bold">Quick links</h2>
+        <li class="font-semibold hover:border-b-2"><a href="#shop">Shop</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="#contact">Contact</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-bold">Reach out</h2>
+        <textarea id="" class="w-90 h-10 border-2 px-2" ></textarea>
+        <!--<input type="text" placeholder="send a quick order/complaint" class="px-8 border-2 ">-->
+        <p class="w-100 font-medium py-1"> Send a quick mail of selections,and get it delivered instantly. 
+          Also reach out to us on complaints about product,our team and will respond instantly.
+
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Basic Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+   <!-- Filled Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+   <!-- Brand Icons -->
+   <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link href="/src/style.css" rel="stylesheet">
+    <title>rlgshop</title>
+</head>
+<body>
+ <header class=" flex flex-col sm:flex-row sm:justify-between pr-40 pl-5 py-4 mt-4">
+      <div><img src="./public/logo Ridgline.png" width="40"></div>
+      <ul class="flex justify-evenly items-center gap-12">
+        <li class="font-semibold hover:border-b-2"><a href="shop">Shop</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="contact" translate="yes">Contact</a></li>
+        <li class="font-semibold hover:border-b-2 "><a href="about" translate="yes">About</a></li>
+        <button class=" text-black  px-4 py-2 text-center font-medium hover:bg-black hover:text-white rounded-[5px] "> <a href="register.html" target="_blank">Signup</a></button>
+        <button class=" text-black px-4 py-2 text-center font-medium  hover:bg-black hover:text-white rounded-[5px] "><a href="login.html" target="_blank">login</a></button>
+        <div class="relative" id="cart-icon"> 
+        <i class="bx bx-cart text-4xl p-0 hover:translate-x-1"></i> 
+          <div class=" absolute top-0.5 -right-0.5 h-2 w-2 rounded-full bg-red-900 hidden" id="notification"></div>
+       </div>
+      </ul>
+    </header>
+
+    <section id="contact" class="bg-black/90 h-80 text-white mt-12 rounded-2xl ">
+       
+       <div class=" w-40 h-8 "><img src="./public/bg11.jpg" class="rounded-r-full"></div>
+        <h1 class="font-bold flex justify-center text-2xl">Contact</h1>
+
+        <div class="flex justify-center  mt-16 gap-20"> 
+          <div class="">
+            <h2 class="font-bold text-2xl"> Can't find What you are looking for?</h2>
+          </div>
+          <div class="leading-8">
+          <span class="font-bold px-6">The Rigline support Team are ready to help.</span>
+          <p class="font-medium px-6 w-160">response time for support ticket will vary depending on order,complaint or any other issues. </p>
+           <div class="flex  mt-4 px-6 font-semibold">
+          <a href="#" class="px-14 py-2 hover:bg-blue-100 rounded-[10px] hover:text-black ">Connect Sales Rep</a> 
+          <a href="#" class="px-8 py-2 hover:bg-blue-100 rounded-[10px] hover:text-black"> Open Ticket</a>
+         </div>
+          
+        </div>
+
+       </div>
+    
+       
+      </section>
+</body>
+</html>

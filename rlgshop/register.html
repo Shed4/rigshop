@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <style>
+        body{
+        background-image: url(./public/bg10.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+        height: 100vh;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body class="bg-slate-700">
+    <div class=" flex justify-center">
+  <form class=" flex flex-col justify-center items-center text-white mt-10 gap-10 w-[350px] h-120 bg-black/50 rounded shadow-[0px_8px_8px_#000000] " id="signupform">
+    <div>
+        <h1 class=" text-[30px] font-bold">Welcome!</h1>
+        <span class="">Register an account today.</span>
+    </div>
+    <div>
+        <label for="" >EMAIL:</label><br>
+        <input class="bg-slate-900/70 w-[250px] rounded border-[none] h-[35px] p-4" type="text" name="" placeholder="examplegmail@com" id="email">
+    </div>
+    <div>
+        <label for="">PASSWORD:</label><br>
+        <input class="bg-slate-900/70 w-[250px] rounded border-[none] h-[35px] p-4 " type="text" placeholder="*******" id="password">
+    </div> 
+    <div class=" flex flex-col gap-4 ">
+        <button id="register" class="bg-black flex justify-center w-60 h-10 p-1.5 rounded text-[white] font-bold transition-transform duration-300 hover:-translate-y-2 hover:border-1 border-white">Register</button>
+    
+        <span>Already have an account? <span class="text-white hover:text-red-700"><a href="login.html">login</a></span></span>
+    </div>
+    <div class="">
+      <p id="message" class="font-bold" ></p>
+      </div>
+  </form>
+   <script src="./src/register.js"></script>
+</body>
+</html>
