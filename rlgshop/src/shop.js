@@ -59,7 +59,7 @@ function addItemToCart(index){
         id:Date.now(),
         productName:productName.textContent,
         image:mainImage[index].getAttribute("src"),
-        price:price.textContent
+        price:Number(price.textContent.replace(/[$]/g,""))
     };
     cart.push(product);
     console.log(cart);
